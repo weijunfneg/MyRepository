@@ -1,0 +1,8 @@
+package com.iflytek.iterator;
+
+public interface Iterator {
+	
+	boolean hasNext();
+
+	Object next();
+}

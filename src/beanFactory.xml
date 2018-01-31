@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beanFactorys>
+	<bean id="LoginSevice"     class="com.iflytek.web.service.impl.LoginServiceImpl"></bean>
+	<bean id="DmanagerSevice"  class="com.iflytek.web.service.impl.DmanagerServiceImpl"></bean>
+	<bean id="PmemberService"  class="com.iflytek.web.service.impl.PmemberServiceImpl"></bean>
+	<bean id="PmanagerService" class="com.iflytek.web.service.impl.PmanagerServiceImpl"></bean>
+	<bean id="ListenerService" class="com.iflytek.web.service.impl.ListenerServiceImpl"></bean>
+	
+	<bean id="LoginDao"    class="com.iflytek.dao.Impl.LoginDaoImpl"></bean>
+	<bean id="DmanagerDao" class="com.iflytek.dao.Impl.DmanagerDaoImpl"></bean>
+	<bean id="PmemberDao"  class="com.iflytek.dao.Impl.PmemberDaoImpl"></bean>
+	<bean id="PmanagerDao" class="com.iflytek.dao.Impl.PmanagerDaoImpl"></bean>
+	<bean id="ListenerDao" class="com.iflytek.dao.Impl.ListenerDaoImpl"></bean>
+	
+	<bean id="TransactionHandler" class="com.iflytek.utils.TransactionHandler"></bean>
+	
+</beanFactorys>
